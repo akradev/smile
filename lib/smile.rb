@@ -1,14 +1,14 @@
 require 'activesupport'
 require 'restclient'
 require 'ostruct'
-require 'lib/smile/base'
-require 'lib/smile/smug'
-require 'lib/smile/album'
-require 'lib/smile/photo'
-require 'lib/smile/param_converter'
+require 'smile/base'
+require 'smile/smug'
+require 'smile/album'
+require 'smile/photo'
+require 'smile/param_converter'
 require 'cgi'
 require 'rss'
-require 'json'
+# require 'json'
 
 module Smile
   module_function
